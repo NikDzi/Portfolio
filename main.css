@@ -664,7 +664,7 @@ font-size: 15rem
     }
     .landing-text{
         font-size: 15rem;
-        padding-left: 25px;
+        padding-left: 50px;
         width: 100%;
     }
     .landing-text h6{
@@ -769,6 +769,12 @@ font-size: 15rem
     }
 
 }
+@media  screen and (max-width: 506px) {
+    .landing-text{
+        padding-left: 20px;
+    }
+
+}
 @media  screen and (max-width: 426px) {
     #future{
         padding-left: 0;
@@ -777,8 +783,14 @@ font-size: 15rem
     .portfolio-img{
         width: 25rem;
     }
+    .landing-text {
+
+        padding-left: 25px;
+    }
+
     .landing-text h1{
         font-size: 8rem;
+        padding-left: 0px;
     }
 
 }
@@ -815,9 +827,7 @@ font-size: 15rem
     }
 }
 @media  screen and (max-width: 376px) {
-    .landing-text{
-        padding-left: 0px;
-    }
+
     #about{
         margin-left: 0px;
         margin-right: 0px;
@@ -844,9 +854,16 @@ font-size: 15rem
     #about{
         padding-right: 60px;
     }
+    .landing-text{
+        padding-left: 0px;
+    }
+    .landing-text h1{
+        padding-left: 0px;
+    }
     .landing-text h6{
         padding-left: 2px;
     }
+
 }
 @font-face{
     font-family: "website-light";
