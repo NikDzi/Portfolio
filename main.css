@@ -770,12 +770,18 @@ font-size: 15rem
 
 }
 @media  screen and (max-width: 506px) {
+    .menu-toggler{
+        overflow: visible;
+    }
     .landing-text{
         padding-left: 20px;
     }
 
 }
 @media  screen and (max-width: 426px) {
+    .menu-toggler{
+        overflow: visible;
+    }
     #future{
         padding-left: 0;
         padding-right: 0;
@@ -827,7 +833,9 @@ font-size: 15rem
     }
 }
 @media  screen and (max-width: 376px) {
-
+    .menu-toggler{
+        overflow: visible;
+    }
     #about{
         margin-left: 0px;
         margin-right: 0px;
