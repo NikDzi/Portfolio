@@ -837,6 +837,17 @@ font-size: 15rem
         left: -40px;
     }
 }
+@media  screen and (max-width: 320px) {
+  .menu-toggler{
+      overflow: visible;
+  }
+    #about{
+        padding-right: 60px;
+    }
+    .landing-text h6{
+        padding-left: 2px;
+    }
+}
 @font-face{
     font-family: "website-light";
     src: url("fonts/Roboto-Light.ttf");
