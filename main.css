@@ -202,7 +202,21 @@ li {
     transform: rotate(-45deg);
     position: fixed;
 }
+#angular:hover {
+    color: #65a2cb;
+    box-shadow: -5px 0px 5px #e52a3a,5px 0px 5px #65A2CBFF;
 
+}
+#angular img{
+    align-content: center;
+    transform: scale(0.5,0.3);
+    transition: 0.2s;
+
+}
+#angular:hover img{
+    transform: scale(0.7,0.5);
+
+}
 .bar {
     background: linear-gradient(to right, #04b0ee, #fd57bf);
     width: 100%;
@@ -397,11 +411,12 @@ li {
 }
 
 .skill {
-    display: flex;
+    display:  inline-block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    vertical-align: top;
 }
 
 .skill h1 {
